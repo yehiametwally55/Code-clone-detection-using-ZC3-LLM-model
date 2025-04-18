@@ -5,6 +5,20 @@ all the datasets we used are available and preprocessed.
 
 we added all the preprocessing programs we used to fix the data for the ZC3 model in the preprocessing folder.
 
+Dataset description:
+Given a file dataset/train.jsonl:
+
+{"label": "65", "index": "0", "code": "function0"}
+{"label": "65", "index": "1", "code": "function1"}
+{"label": "65", "index": "2", "code": "function2"}
+{"label": "66", "index": "3", "code": "function3"}
+Where:
+
+code: the source code
+
+label: the number of problem that the source code solves
+
+index: the index of example
 
 This is the command for training and evaluating the model we used.
 
