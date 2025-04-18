@@ -2,13 +2,14 @@
 # Task definition
 Given a code and a collection of candidates as the input, the task is to classify and retrieve codes with the same semantic from a collection of candidates. Models are evaluated by MAP score and F1-score. MAP is defined as the mean of average precision scores, which is evaluated for retrieving similar samples given a query. F1-score is a measure used to classify problems to evaluate a model's accuracy by balancing precision and recall.
 
+# Structure
 You can find the ZC3 model in the ZC3-main folder.
 
 all the datasets we used are available and preprocessed.
 
 we added all the preprocessing programs we used to fix the data for the ZC3 model in the preprocessing folder.
 
-Dataset description:
+# Dataset description
 Given a file dataset/train.jsonl:
 
 {"label": "65", "index": "0", "code": "function0"}
@@ -29,7 +30,7 @@ index: the index of example
 
 This is the command for training and evaluating the model we used.
 
-Fine-tuning
+# Fine-tuning
 
 export CUDA_VISIBLE_DEVICES=0,1,2
 python run.py \
