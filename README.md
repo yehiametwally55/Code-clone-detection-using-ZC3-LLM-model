@@ -1,5 +1,6 @@
 # SOEN-691
 Fine-tuning
+
 export CUDA_VISIBLE_DEVICES=0,1,2
 python run.py \
  --output_dir=./saved_models_codes \
