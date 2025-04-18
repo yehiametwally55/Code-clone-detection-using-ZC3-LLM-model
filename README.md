@@ -1,4 +1,11 @@
 # SOEN-691
+You can find the ZC3 model in the ZC3-main folder
+all the datasets we used are available and preprocessed
+we added all the preprocessing programs we used to fix the data for the ZC3 model in the preprocessing folder
+
+
+This is the command for training and evaluating the model we used
+
 Fine-tuning
 
 export CUDA_VISIBLE_DEVICES=0,1,2
