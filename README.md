@@ -56,3 +56,6 @@ python run.py \
  --max_grad_norm 1.0 \
  --evaluate_during_training \
  --seed 123456 
+
+# Zenodo
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15243978.svg)](https://doi.org/10.5281/zenodo.15243978)
