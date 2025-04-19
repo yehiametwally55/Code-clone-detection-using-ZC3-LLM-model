@@ -4,7 +4,7 @@ Given a code and a collection of candidates as the input, the task is to classif
 # Structure
 You can find the ZC3 model in the ZC3-main folder. The C4 model is in the C4.zip folder.
 
-all the datasets we used are available and preprocessed.
+All the datasets (Atcoder, GPTClone-Bench, XLCost) we used are available and preprocessed.
 
 we added all the preprocessing programs we used to fix the data for the ZC3 model in the preprocessing folder.
 
