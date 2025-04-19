@@ -1,3 +1,5 @@
+# ZC3 - Cross Code Clone Detection: A Replication Study
+
 # Task definition
 Given a code and a collection of candidates as the input, the task is to classify and retrieve codes with the same semantic from a collection of candidates. Models are evaluated by MAP score and F1-score. MAP is defined as the mean of average precision scores, which is evaluated for retrieving similar samples given a query. F1-score is a measure used to classify problems to evaluate a model's accuracy by balancing precision and recall.
 
