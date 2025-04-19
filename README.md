@@ -23,7 +23,7 @@ Where:
 
 code: the source code
 
-label: the number of problem that the source code solves
+label: the identifier number that the same clones in different languages will have
 
 index: the index of example
 
