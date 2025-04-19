@@ -6,7 +6,7 @@ You can find the ZC3 model in the ZC3-main folder. The C4 model is in the C4.zip
 
 All the datasets (Atcoder, GPTClone-Bench, XLCost) we used are available and preprocessed.
 
-we added all the preprocessing programs we used to fix the data for the ZC3 model in the preprocessing folder.
+We added all the preprocessing programs we used to format the data for the ZC3 model in the preprocessing folder.
 
 # Dataset description
 Given a file dataset/train.jsonl:
