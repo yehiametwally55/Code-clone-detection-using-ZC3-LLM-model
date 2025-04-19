@@ -11,13 +11,13 @@ We added all the preprocessing programs we used to format the data for the ZC3 m
 # Dataset description
 Given a file dataset/train.jsonl:
 
-{"label": "65", "index": "0", "code": "function0"}
+{"label": "65", "index": "0", "code": "function0", description: "Python"}
 
-{"label": "65", "index": "1", "code": "function1"}
+{"label": "65", "index": "1", "code": "function1", description: "java"}
 
-{"label": "65", "index": "2", "code": "function2"}
+{"label": "65", "index": "2", "code": "function2", description: "C"}
 
-{"label": "66", "index": "3", "code": "function3"}
+{"label": "66", "index": "3", "code": "function3", description: "Python"}
 
 Where:
 
@@ -26,6 +26,8 @@ code: the source code
 label: the identifier number that the same clones in different languages will have
 
 index: the index of example
+
+description: The programming language
 
 This is the command for training and evaluating the model we used.
 
